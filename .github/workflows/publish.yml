@@ -13,13 +13,13 @@ jobs:
       matrix:
         include:
           - os: ubuntu-latest
-            artifact_name: test
+            artifact_name: rust-test
             asset_name: test-linux-amd64
           - os: windows-latest
-            artifact_name: test.exe
+            artifact_name: rust-test.exe
             asset_name: test-windows-amd64
           - os: macos-latest
-            artifact_name: test
+            artifact_name: rust-test
             asset_name: test-macos-amd64
 
     steps:
